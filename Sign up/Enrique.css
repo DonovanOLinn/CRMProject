@@ -42,7 +42,7 @@ input:focus {
     border-color: blue;
 }
 .input1 {
-    background-image: url(/../CRMProject/Images/CRM-SignUp/Page-1.png);
+    background-image: url(/../Images/CRM-SignUp/Page-1.png);
     display: flex;
     flex-direction: row;
     background-position: left;
@@ -55,7 +55,7 @@ input:focus {
     padding: 14px 50px;
 }
 .input2 {
-    background-image: url("/../CRMProject/Sign up/icons8-mail-50.png");
+    background-image: url("/../Sign up/icons8-mail-50.png");
     display: flex;
     flex-direction: row;
     background-position: left;
@@ -69,7 +69,7 @@ input:focus {
 }
 
 .input3 {
-    background-image: url("/../CRMProject/Sign up/icons8-lock-30.png");
+    background-image: url("/../Sign up/icons8-lock-30.png");
     display: flex;
     flex-direction: row;
     background-position: left;
@@ -135,7 +135,7 @@ p {
   }
 
   .span1 {
-      background-image: url("/../CRMProject/Images/CRM-SignUp/Path 151@2x.png");
+      background-image: url("/Images/CRM-SignUp/Path 151@2x.png");
       background-repeat: no-repeat;
       background-size: 30px;
       background-position: center;
@@ -145,7 +145,7 @@ p {
   }
 
   .span2 {
-      background-image: url("/../CRMProject/Images/CRM-SignUp/Path 152@2x.png");
+      background-image: url("/Images/CRM-SignUp/Path 152@2x.png");
       background-repeat: no-repeat;
       background-size: 50px;
       background-position: center;
@@ -155,7 +155,7 @@ p {
   }
 
   .span3 {
-      background-image: url("/../CRMProject/Sign up/icons8-google-50.png");
+      background-image: url("/Sign up/icons8-google-50.png");
       background-repeat: no-repeat;
       background-size: 50px;
       background-position: center;
@@ -165,7 +165,7 @@ p {
   }
 
   .span4 {
-      background-image: url("/../CRMProject/Sign up/icons8-linkedin-50.png");
+      background-image: url("/Sign up/icons8-linkedin-50.png");
       background-repeat: no-repeat;
       background-size: 50px;
       background-position: center;
