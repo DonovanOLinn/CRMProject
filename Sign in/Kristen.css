@@ -34,8 +34,9 @@ body {
 
 #rocket {
     width: 30vw;
-    margin-left: 8vw;
+    margin-left: 6vw;
     margin-top: 3vh;
+    position: relative;
 }
 
 #input-form {
@@ -58,17 +59,18 @@ body {
     display: flex;
     align-items: center;
     position: relative;
+    margin-left: 6vw;
 }
 
 .input-field{
-    width: 100%;
+    width: 70%;
     padding-right: 40px;
     height: 3.8vh;
     padding: 10px;
     outline: none;
     border-radius: 50px;
-    border: 1px solid rgb(173, 171, 171);
-    margin-right: 5vw;
+    border: 1px solid rgb(187, 184, 184);
+    margin-right: 3vw;
     padding-left: 45px;
 }
 
