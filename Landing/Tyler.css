@@ -522,6 +522,9 @@ color: white;
     color: #0314fe;
     margin-left: 5vh;
 }
+#footer-btn1:hover,#footer-btn2:hover{
+    box-shadow: 0px 0px 15px lawngreen;
+}
 
 .footer-list{
     display: flex;
