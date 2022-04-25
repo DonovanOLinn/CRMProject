@@ -3,3 +3,6 @@ Tyler Matthews - Assigned top half of landing page. Found out sunday evening tha
                  half not as clean as top due to late notice.
                  
 Enrique Greene -Completed Sign up Page
+Kristin Bieler -completed Sign In page and contributed optional code for Landing Page footer.
+
+Javier -Completed the How-it-works footer and title
