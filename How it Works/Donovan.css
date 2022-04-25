@@ -21,6 +21,24 @@ html, body{
     ". Card-2 Card-2-in-text Card-2-in-text ."
     ". Footer Footer Footer .";
 }
+
+.Header {  
+  display: grid;
+  background-color: blue; 
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 0px 0px;
+grid-auto-flow: row;
+grid-template-areas:
+  ". ."
+  ". .";
+grid-area: Header;
+}
+
+.Footer { 
+    grid-area: Footer;
+    background-color: blue; 
+   }
  
 .Card-1-text{
   grid-area: Card-1-text;
