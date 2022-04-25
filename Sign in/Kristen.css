@@ -1,7 +1,7 @@
 .container {  display: grid;
     grid-template-columns: 1.3fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 1px 1px;
+    gap: 0px 0px;
     grid-auto-flow: column;
     grid-template-areas:
       "sign-up input-form"
@@ -14,29 +14,34 @@ body {
 }
 
 #sign-up{
+    position:fixed;
+    top: 0px;
+    left: 0px;
     grid-area: sign-up;
     font-weight: bolder;
     color: white;
     background-color: #0314FE;
     border-radius: 0px 0px 99% 30px;
+    width: 55%;
+    height: 100%;
   }
 
 #fix-it{
-    margin-right: 12vw;
+    margin-right: 15vw;
     margin-top: 7vh;
     text-align: center;
 }
 
 #rocket {
     width: 30vw;
-    margin-left: 7vw;
+    margin-left: 8vw;
+    margin-top: 3vh;
 }
 
 #input-form {
    grid-area: input-form;
    font-size: larger;
-   text-align: center;
-   
+   text-align: center; 
 }
 
 #input-form h1{
@@ -64,7 +69,13 @@ body {
     border-radius: 50px;
     border: 1px solid rgb(173, 171, 171);
     margin-right: 5vw;
+    padding-left: 45px;
 }
+
+.input-field::placeholder{
+    padding-left: 40px;
+}
+
 
 .input-icons i {
     position: absolute;
@@ -74,13 +85,15 @@ body {
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
+    position: absolute;
 }
 
 .icon {
     padding: 10px;
     min-width: 40px;
     text-align: center;
-}
+    position: absolute;
+    }
 
 .btn {
     background-color: #0314FE;
@@ -89,10 +102,11 @@ body {
     border-color: white;
     width: 12vw;
     height: 5.5vh;
-    font-size: 20px;
+    font-size: 1rem;
     cursor: pointer;
     box-shadow: 0 5px rgb(180, 180, 180);
     margin-bottom: 15px;
+    min-width: 80px;
 }
 
 .btn:hover {
