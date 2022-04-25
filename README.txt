@@ -1,0 +1,1 @@
+Donovan O'Linn - Github manager, Made the Navbar and the cards on the How-It-Works page.
